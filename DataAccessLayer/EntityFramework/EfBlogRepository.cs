@@ -20,5 +20,10 @@ namespace DataAccessLayer.EntityFramework
             }
             
         }
+
+        public List<Blog> List(Func<object, object> p)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
